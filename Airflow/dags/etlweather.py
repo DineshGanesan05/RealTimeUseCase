@@ -92,3 +92,13 @@ with DAG(dag_id='weather_etl_pipeline',
     weather_date = extract_weather_data()
     transformed_data = transform_weather_data(weather_date)
     load_weather_data = load_weather_data(transformed_data)
+    
+
+
+
+    
+
+
+
+
+
