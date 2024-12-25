@@ -20,3 +20,6 @@ jobs:
           body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           to: dineshkumarganesan05@gmail.com
           from: Dinesh
+          attachments: |
+            README.md
+            .github/workflows/03.sendmail.yml
